@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name "CM4IO")(type "KiCad")(uri "${KIPRJMOD}/CM4IO.kicad_sym")(options "")(descr ""))
+  (lib (name "ev-devboard")(type "KiCad")(uri "${KIPRJMOD}/lib/ev-devboard.kicad_sym")(options "")(descr ""))
+  (lib (name "Pionix")(type "KiCad")(uri "${KIPRJMOD}/lib/Pionix.kicad_sym")(options "")(descr ""))
+)

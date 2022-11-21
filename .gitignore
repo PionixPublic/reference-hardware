@@ -1,0 +1,18 @@
+# KiCAD backup
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.sch-bak
+_saved_*
+yeti-backups/
+everestCM4-backups/
+
+# Footprint info cache
+fp-info-cache
+
+# Autosave files
+_autosave-*
+
+# Python
+*.pyc

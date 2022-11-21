@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MYRGC075050S31RA
+F https://www.murata.com/products/productdata/8807035764766/MYRGC.pdf?1583754814000
+$ENDCMP
+#
+$CMP SF-2410SP100W-2
+F https://componentsearchengine.com/Datasheets/2/SF-2410SP100W-2.pdf
+$ENDCMP
+#
+$CMP TMUX6219DGKR
+F https://www.ti.com/lit/ds/symlink/tmux6219.pdf?ts=1615989354363&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTMUX6219
+$ENDCMP
+#
+#End Doc Library
