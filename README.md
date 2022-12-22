@@ -7,6 +7,8 @@ They are designed with KiCAD 6 (https://www.kicad.org/), make sure you use the l
 Yeti
 ====
 
+![alt text](https://github.com/PionixPublic/reference-hardware/blob/main/pictures/yeti.png?raw=true)
+
 Three phase power board reference design for a full 22kW AC charger. This board may be used in two ways:
 
 Using Yeti as a standalone charger
@@ -60,6 +62,8 @@ Yeti's STM32 firmware can be found here: https://github.com/PionixPublic/yeti-fi
 
 Yak
 ===
+
+![alt text](https://github.com/PionixPublic/reference-hardware/blob/main/pictures/yak.png?raw=true)
 
 Yak is a high level control board for EV charging stations. It supports both AC and DC applications. It is based on Raspberry Pi Compute Module (CM4) running Linux. It has the following features:
 
