@@ -84,3 +84,10 @@ Yak is a high level control board for EV charging stations. It supports both AC 
 For the EVerest software stack on the Yak board see its main repository here: https://github.com/EVerest/everest
 
 Pre built images for the Yak board based on raspian for Pionix BelayBox are available from Pionix: contact@pionix.de 
+
+Pionix Belay Box
+================
+
+A complete charger design based on those two boards is available from Pionix, contact us via contact@pionix.de to get access to a Fusion360 project.
+
+![alt text](https://github.com/PionixPublic/reference-hardware/blob/main/pictures/belaybox.png?raw=true)
