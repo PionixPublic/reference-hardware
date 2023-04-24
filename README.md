@@ -49,7 +49,7 @@ Yeti HW has the following features:
 - external connector for a small SPI LCD (useful if it is used as a standalone charger)
 - external RS485/ModBus e.g. for external power meters
 - onboard FRAM for power meter
-- external GPIOs with support to measure PTCs/NTCs as temperture sensors in the plug
+- external GPIOs with support to measure PTCs/NTCs as temperature sensors in the plug
 - 32A/16A selection jumper
 - TagConnect TC2030 port for STM32 programming and debugging
 - optional GPS module for secondary time source and fleet management
