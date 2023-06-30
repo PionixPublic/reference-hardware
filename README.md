@@ -85,9 +85,46 @@ For the EVerest software stack on the Yak board see its main repository here: ht
 
 Pre built images for the Yak board based on raspian for Pionix BelayBox are available from Pionix: contact@pionix.de 
 
+
+Yak/Yeti Wiring
+================
+
+A word of warning: Working with high voltages (e.g. 400V AC or 1000V DC) is dangerous and potentially lethal. The following setups are for experimental use by trained professionals in controlled lab space only! There is risk of death, fire and more, so don't do this unless you know exactly what you are doing. We don't take any responsibility, these instructions are incomplete and may be wrong, you have been warned!
+
+AC Charging
+-----------
+
+Yeti was designed for AC charging, so wiring for AC is quite easy. You can use both single and three phase configurations with neutral. If you have 220V in the US with no neutral you can wire L1 to L1 and L2 to N. PE must always be connected.
+
+![alt text](https://github.com/PionixPublic/reference-hardware/blob/main/pictures/yak_yeti_ac.png?raw=true)
+
+DC Charging
+-----------
+
+Yak was designed for both AC and DC applications. Even though Yeti was designed for AC only, it can still be used to evaluate DC charging. Keep in mind that this is a bare minimum lab test setup and for a real product more safety and protection features need to be added.
+
+From the Yeti the CP signalling is used as it is the same for DC and AC. The power relais on the Yeti are used as driver relais for the big DC contactor's coil voltage (typically 12 or 24V). Since no AC is connected to Yeti the onboard 12V power supply does not work and external 12V needs to be fed into the barrel connector to power both Yak and Yeti. 
+PE always has to be connected to the Yeti's PE input!
+
+The complete DC power path is added externally. The AC/DC module (or stack of modules) is controlled by EVerest directly from Yak via CAN bus. Isolation monitors and power meters are typically connected to the ModBus/RS485 port of the Yak. Depending on your setup the components may use different busses.
+
+The Yeti firmware is the same as for AC. In the EVerest configuration EvseManager needs to be configured for DC charging mode and the driver modules for all exteral components need to be loaded.
+
+![alt text](https://github.com/PionixPublic/reference-hardware/blob/main/pictures/yak_yeti_dc.png?raw=true)
+
+
 Pionix Belay Box
 ================
 
 A complete charger design based on those two boards is available from Pionix, contact us via contact@pionix.de to get access to a Fusion360 project.
 
 ![alt text](https://github.com/PionixPublic/reference-hardware/blob/main/pictures/belaybox.png?raw=true)
+
+
+
+Pionix DC Test stand
+====================
+
+This is how a 30kW lab prototype for DC charging evaluation can look like, contact us via contact@pionix.de to get more information.
+
+![alt text](https://github.com/PionixPublic/reference-hardware/blob/main/pictures/dc-charger.png?raw=true)
