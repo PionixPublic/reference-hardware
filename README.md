@@ -121,6 +121,8 @@ You can download the 3D files via our Fusion360 project: https://a360.co/45erK90
 
 You can find the manual for the BelayBox here: https://pionix.com/wp-content/uploads/2023/07/user-manual-belaybox.pdf
 
+You can find the manual for the BelayBox here: https://pionix.com/wp-content/uploads/2023/07/user-manual-belaybox.pdf
+
 ![alt text](https://github.com/PionixPublic/reference-hardware/blob/main/pictures/belaybox.png?raw=true)
 
 
