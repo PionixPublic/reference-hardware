@@ -119,7 +119,7 @@ Pionix Belay Box
 A complete charger design based on those two boards is available from Pionix.
 You can download the 3D files via our Fusion360 project: https://a360.co/45erK90.
 
-You can find the manual for the BelayBox here: https://pionix.com/wp-content/uploads/2023/07/user-manual-belaybox.pdf
+You can find the manual for the BelayBox here: https://pionix.com/user-manual-belaybox
 
 If you have already purchased a BelayBox and need help, see our support page to create an issue: http://support.pionix.com/
 
