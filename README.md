@@ -52,7 +52,6 @@ Yeti HW has the following features:
 - external GPIOs with support to measure PTCs/NTCs as temperature sensors in the plug
 - 32A/16A selection jumper
 - TagConnect TC2030 port for STM32 programming and debugging
-- optional GPS module for secondary time source and fleet management
 - Power input: onboard 110V/230V -> 12V supply or external 12V input. The onboard ACDC can supply the high level yak board as well.All other voltages are generated on board. 
 - 12V/1A motor lock driver (normally not populated)
 
@@ -124,7 +123,12 @@ You can find the manual for the BelayBox here: https://pionix.com/user-manual-be
 For assembly instructions and some troubleshooting information, please see here:
 https://everest.github.io/nightly/hardware/pionix_belay_box.html#pionix-belaybox
 
-If you have already purchased a BelayBox and need help, see our support page to create an issue: http://support.pionix.com/
+If you have already purchased a BelayBox and need **hardware-related help**, see
+our support page to create an issue: https://support.pionix.com/
+
+**For software-related issues** all around EVerest, the active community is willing
+to help you on the EVerest mailing list (https://lists.lfenergy.org/g/everest)
+or via Zulip (https://lfenergy.zulipchat.com/).
 
 In case you need further parts for the BelayBox, visit the Pionix online shop:
 https://shop.pionix.com/
